@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/04/Braille-Priyank Namdev-2022-07-26/dlc-models/iteration-0/BrailleJul26-trainset95shuffle1/train/snapshot-30100"
+all_model_checkpoint_paths: "/Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/04/Braille-Priyank Namdev-2022-07-26/dlc-models/iteration-0/BrailleJul26-trainset95shuffle1/train/snapshot-30100"
