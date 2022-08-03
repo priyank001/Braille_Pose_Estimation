@@ -1,0 +1,68 @@
+    # Project definitions (do not edit)
+Task: Braille
+scorer: Priyank Namdev
+date: Jul26
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/04/Braille-Priyank
+  Namdev-2022-07-26
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/Right/20220717_210427~2_1.mp4:
+    crop: 0, 1280, 0, 720
+  /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/Right/20220717_210442~2_2.mp4:
+    crop: 0, 1280, 0, 720
+  /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/Right/20220717_210458~2_3.mp4:
+    crop: 0, 1280, 0, 720
+  /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/Right/20220717_210510 -2_4.mp4:
+    crop: 0, 1280, 0, 720
+  /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/Right/20220717_210523~2_5.mp4:
+    crop: 0, 1280, 0, 720
+  /Users/priyanknamdev/My Data/Maynooth University/Thesis Dissertation/Coding/Data/Brail/Left/IMG_1637.MOV:
+    crop: 0, 1280, 0, 720
+bodyparts:
+- Index_Left
+- Index_Right
+- Hand_Left
+- Hand_Right
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton: []
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
