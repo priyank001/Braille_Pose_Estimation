@@ -42,4 +42,4 @@
 
 
 ***
-_This project is done under supervision of Prof. Reilly, Executive Vice-Dean of MIEC, Fuzhou University._
+_This project is done under supervision of Prof. Reilly, Executive Vice-Dean of MIEC, Fuzhou University. Thanks!_
